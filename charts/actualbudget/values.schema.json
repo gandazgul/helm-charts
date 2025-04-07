@@ -414,6 +414,13 @@
           "title": "existingClaim",
           "type": "string"
         },
+        "subPath": {
+          "default": "",
+          "description": "Optional sub path for an existing volume",
+          "required": [],
+          "title": "subPath",
+          "type": "string"
+        },
         "size": {
           "default": "10Gi",
           "pattern": "^[0-9]+(Gi|Mi|Ki|G|M|K)$",
