@@ -173,6 +173,9 @@ persistence:
   # -- Actual Budget persistence existing claim
   existingClaim: ""
 
+  # -- Optional sub path for an existing volume
+  subPath: ""
+
   # -- Actual Budget persistence storage class
   storageClass: ""
 
