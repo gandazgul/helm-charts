@@ -110,6 +110,7 @@ helm upgrade [RELEASE_NAME] community-charts/actualbudget
 | persistence.annotations | object | `{}` | Actual Budget persistence annotations |
 | persistence.enabled | bool | `false` | Enable persistence |
 | persistence.existingClaim | string | `""` | Actual Budget persistence existing claim |
+| persistence.subPath | string | `""` | Optional subPath configuration for an existing volume |
 | persistence.size | string | `"10Gi"` | Actual Budget persistence size |
 | persistence.storageClass | string | `""` | Actual Budget persistence storage class |
 | persistence.volumeMode | string | `""` | Actual Budget persistence volume mode |
